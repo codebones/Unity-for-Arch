@@ -18,7 +18,7 @@ url="https://launchpad.net/unity-place-music"
 license=(GPL)
 depends=(gstreamer gst-plugins-base libgee libnotify liboauth libsoup libunity
          tdb)
-makedepends=(vala intltool json-glib)
+makedepends=(gnome-common vala intltool json-glib)
 groups=(unity)
 source=("https://launchpad.net/ubuntu/+archive/primary/+files/unity-lens-music_${_actual_ver}${_extra_ver}.orig.tar.gz"
         0001-Remove-broken-reference-to-musicstore.scope.in.patch
